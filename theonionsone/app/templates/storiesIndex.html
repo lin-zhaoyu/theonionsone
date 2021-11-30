@@ -1,0 +1,28 @@
+<html>
+    <head>
+      <style>
+        body{
+        background-color: #2680a6;
+        }
+      </style>
+        <title> Your Stories </title>
+    </head>
+
+    <form action="/" method = "GET">
+        <input type="submit" value="Home">
+    </form>
+    <!-- Home -->
+    <body>
+      Here are your list of stories!
+
+      <ul>
+        {% for story in stories %}
+          <li> <a href = "/stories/{{story}}"> {{story}} </a> </li>
+        {% endfor %}
+      </ul>
+    </body>
+
+    <body>
+
+    </body>
+</html>

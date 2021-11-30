@@ -1,0 +1,39 @@
+<html>
+    <head>
+    <style>
+      body{
+       background-color: #2680a6;
+      }
+
+      textarea {
+        /* background-color: #78c0e0; */
+        border: none;
+        color: black;
+        padding: 16px 32px;
+        margin: 3px 3px;
+        cursor: pointer;
+        width: 400px;
+        box-sizing: border-box;
+        border-radius: 0;
+        background: linear-gradient(90deg, #222, #222) center bottom/0 0.15em
+            no-repeat,
+          linear-gradient(90deg, #449dd1, #449dd1) left bottom/100% 0.15em no-repeat,
+          linear-gradient(90deg, #78c0e0, #78c0e0) left bottom/100% no-repeat;
+      }
+    </style>
+      <title>
+        Something went wrong!
+	    </title>
+    </head>
+
+    <p>
+      Click the home button to return <br>
+        <form action="/" method="GET">
+		        <input type="submit" value="Home">
+	     </form>
+    </p>
+
+    {% for n in range(1000) %}
+      <h{{n}}> Something went wrong! </h{{n}}>
+      {% endfor %}
+</html>

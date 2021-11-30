@@ -1,0 +1,36 @@
+<html>
+    <title>Edittting {{story}}</title>
+
+    <body>
+      <form action="/" method = "GET">
+        <input type="submit" value="Home">
+      </form>
+    </body>
+
+    {%if error%}
+      <p>
+		Hmmm. Looks like there was an issue trying to submit your story.
+      </p>
+      {% endif %}
+
+    <body>
+        <h1>{{story}}</h1>
+        <p>{{latest_contents}}</p>
+    </body>
+
+    <p>
+      ---------------------------
+      That was the previous text.
+      ---------------------------
+    </p>
+
+    <body>
+      <form action="/requestaddition/{{story}}" method = "POST">
+        Enter the text for the story addition:
+        <br>
+        <textarea id="Story" name="story" rows="10" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Submit Addition">
+      </form>
+    </body>
+</html>

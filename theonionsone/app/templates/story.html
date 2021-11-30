@@ -1,0 +1,24 @@
+<html>
+<style>
+  body{
+    background-color: #2680a6;
+  }
+</style>
+<title>{{story}}</title>
+
+<body>
+    <form action="/" method="GET">
+        <input type="submit" value="Home">
+    </form>
+</body>
+
+<body>
+    <h1>{{story}}</h1>
+    <p>
+        {% for para in contents %}
+        {{para}} <br>
+        {% endfor %}
+    </p>
+</body>
+
+</html>

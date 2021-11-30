@@ -16,30 +16,32 @@ P00-homepage -- Moving Slowly -- No Place Like Home
 <head>
     <title> Register </title>
     <link rel="stylesheet" href="static/css/register.css">
+    <style>
+      body{
+       background-color: #2680a6;
+      }
+    </style>
 </head>
 
 <body>
     <p>
-        {{extra_Message}}
+      {{extra_Message}}
     </p>
     <h1>
-        Please enter your new login information.
+      Please enter your new login information.
     </h1>
-    <form action="/check_register" method="POST">
+    <form action="/check_register" method = "POST">
         Username:
         <input type="text" name="username">
         <br>
         Password:
         <input type="password" name="password">
         <br>
-        <br>
-        Confirm <br>Password:
+        Confirm Password:
         <input type="password" name="confirm_password">
         <br>
-        <input type="submit" value="Register">
-        <!-- Allows you to return text as a username and press a submit button -->
+        <input type="submit" value="Register"> <!-- Allows you to return text as a username and press a submit button -->
     </form>
 </body>
 <!--First body for entering login credentials -->
-
 </html>

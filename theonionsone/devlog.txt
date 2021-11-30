@@ -1,0 +1,62 @@
+ishraqM -- 2021-10-28 20:00
+Initializing repo with README.md, devlog.txt, and design.pdf (with revisions made based on feedback)
+
+lucasTW -- 2021-10-28 21:26 
+Added team flag via upload to the repo
+
+lucasTW - 2021-10-30 21:11PM 
+Added designwiki0.pdf
+
+lucasTW - 2021-11-1 20:38AM 
+Added testfolder0
+
+lucasTW - 2021-11-2 00:00 
+Did stuff involving login pages
+
+tomasA - 2021-11-2 11:22 
+Created the data folder with data_functions.py which has functions for interacting with the database
+
+lucasTW - 2021-11-3 18:35 
+Updated register as well as adding pages for displaying story lists
+
+ishraqM - 2021-11-3 21:00
+Added requirement.txt
+
+ishraqM - 2021-11-3 23:20
+Authorization and registration works now and app is linked to module now
+
+tomasA - 2021-11-4 21:49
+Made it so that each user has a table of their edited stories and made a function that gets a list of these stories for a given user
+
+ishraqM - 2021-11-5 8:41
+Worked with team to clean up repo and worked on posting stories. Setup URL and POST flow for creating -> need to link to DB
+
+tomasA - 2021-11-6 16:05
+Made a function to reset the database and made some changes to make the output of db_test.py more readable
+
+ishraqM - 2021-11-7 14:00
+Made story creation work, and worked on functionality reguarding the viewing of stories.
+
+lucasTW - 2021-11-7 17:10
+Added functionality for editting already existing stories as well as changing what you see depending on whether you have editted the story or not. Things to work on (in a similar vien): Changing the preview of the story to only include the last edit, having a page to see stories you have not editted yet. (Currently you need to input a specific url of the story)
+
+ishraqM - 2021-11-8 9:00
+The group got together and made list of final things we would need to add. We worked on fixing up the permissions and touching up on the visuals.
+
+ishraqM - 2021-11-9 00:00
+Created branch and ensured home buttons were on every page.
+
+tomasA - 2021-11-9 9:00
+Added docstrings to data_functions.py.
+
+ishraqM - 2021-11-10 9:00
+Newlines are now kept track of and added between entries, which in turn is now displayed utilizing Jinja.
+
+tomasA - 2021-11-11 19:00
+Added docstrings to table.py and cleaned up some code
+
+ishraqM - 2021-11-11 23:45
+Try catch blocks added and a bit of authflow clean up.
+
+tomasA - 2021-11-12 11:46
+Made it so that you can get a list of stories you haven't contributed to and made some simplifications to the code in app

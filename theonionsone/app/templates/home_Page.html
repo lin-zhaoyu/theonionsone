@@ -1,0 +1,32 @@
+<html>
+    <head>
+    <style>
+      body{
+       background-color: #2680a6;
+      }
+    </style>
+        <title> Home Page </title>
+    </head>
+
+    <body>
+        <h1>Story Improv!</h1>
+        <form action="/" method="GET">
+          <input type="submit" value="Home">
+        </form>
+
+        <h2>Welcome {{user}}!</h2>
+
+        <p><a href="/your_stories">Click here to see your stories.</a></p>
+        <p><a href="/stories">Click here to contribute to a story.</a></p>
+        <p><a href="/createstory">Click here to create a new story.</a></p>
+
+
+    </body>
+
+    <!-- Logout -->
+    <body>
+      <form action="/logout" method = "GET">
+        <input type="submit" value="Logout">
+      </form>
+    </body>
+</html>

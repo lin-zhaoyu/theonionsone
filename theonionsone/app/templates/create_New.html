@@ -1,0 +1,35 @@
+<html>
+  <style>
+    body{
+     background-color: #2680a6;
+    }
+  </style>
+    <title>
+      Create a Story!
+	</title>
+	<form action="/" method="GET">
+		<input type="submit" value="Home">
+	</form>
+    <h1>Welcome {{user}}!</h1>
+
+      {%if error%}
+      <p>
+		Hmmm. Looks like there was an issue trying to submit your story.
+      </p>
+      {% endif %}
+
+    <p>Create a story by filling out the text boxes below.</p>
+    <body>
+      <form action="/requestcreate" method = "POST">
+        Enter the title of the story:
+        <br>
+        <input type="text" name="title" size="15">
+        <br>
+        Enter the text for the story:
+        <br>
+        <textarea id="Story" name="story" rows="10" cols="50"></textarea>
+        <br>
+        <input type="submit" name="submit" value="Submit Story">
+      </form>
+    </body>
+</html>
