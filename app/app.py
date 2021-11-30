@@ -272,7 +272,7 @@ def main():
     """
     try:
         app.debug = True
-        app.run()
+        app.run(host = '0.0.0.0')
     except:
         return render_template('ErrorResponse.html')
 

@@ -1,11 +1,11 @@
 # TEAM: Story Improv by TheOnionsOne
+# Team Editors: HaroldHuggers - William Chen, Zhaoyu Lin
 
 ## Roster: 
 * Ishraq Mahid (PM)
 * Lucas Tom-Wong (Front End Developer)
 * Tomas Acuña (Database Maintainer)
 * All (snake management)
-
 ## Haikus:
 Goggles are worn here
 Eyes fill with sweet salty tears

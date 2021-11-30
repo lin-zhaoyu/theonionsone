@@ -9,7 +9,6 @@ SoftDev
 P00-homepage -- Moving Slowly -- No Place Like Home
 2021-10-29
  -->
-
 <!DOCTYPE html>
 
 <html>
@@ -17,20 +16,21 @@ P00-homepage -- Moving Slowly -- No Place Like Home
 <head>
     <title> Login Page </title>
     <link rel="stylesheet" href="static/css/login.css">
+
 </head>
 
 <body>
-    <p>
-        {{extra_Message}}
-    </p>
-    <p> Welcome to story improv </p>
+  <p>
+      {{extra_Message}}
+  </p>
+  <p> Welcome to story improv </p>
 </body>
 
 <body>
     <h1>
-        Please enter your login information.
+      Please enter your login information.
     </h1>
-    <form action="/auth_ed" method="POST">
+    <form action="/auth_ed" method = "POST">
         Username:
         <input type="text" name="username">
         <br>
